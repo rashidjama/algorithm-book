@@ -17,11 +17,21 @@ function insertValue(array, value) {
 function popFront(arr) {
   return arr[0]
 }
-console.log(popFront([2,4,5,6]))
+// console.log(popFront([2,4,5,6]))
 
 
 // Insert At
 // Given an array, index, and additional value, insert the value into array at given index. Do this without using built-in array methods. You can think of pushFront(arr,val) as equivalent to insertAt(arr,0,val).
+
+function instertAt(arr, idx, value) {
+  for (let i=0; i<arr.length; i++) {
+    if (i === idx) {
+      arr[i] = value
+    }
+  }
+  return arr
+}
+console.log(instertAt([4,5,6,7], 2, 9))
 
 
 
