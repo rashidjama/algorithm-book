@@ -10,9 +10,14 @@ function keepLastFew(arr, num) {
 // console.log(keepLastFew([2,4,6,8,10],3))
 //  Math Help
 // Cartman doesn’t really like math; he needs help. You are given two numbers – coefficients M and B in the equation Y = MX + B. Build a function to return the X-intercept (his older cousin Fiaz wisely reminds him that X-intercept is the value of X where Y equals zero; Cartman just snorts in his general direction).
-//
+function xyIntercept(x, y) {
+  if(y == 0) {
+    x = x;
+  }
+  return x;
+}
+console.log(xyIntercept(5,4))
 //  Poor Kenny
-
 // Kenny tries to stay safe, but somehow everyday something happens. Out of the last 100 days, there were 10 days with volcanos, 15 others with tsunamis, 20 earthquakes, 25 blizzards and 30 meteors (for 100 days total). If these probabilities continue, write whatHappensToday() to print a day’s outcome.
 
 //  What Really Happened?
